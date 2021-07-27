@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - SWAPI JS M11</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="content">
+
+  <div class="search">
+    <div class="search_form">
+      <select id="selector">
+        <option value="people">Поиск персонажа</option>
+        <option value="starships">Поиск корабля</option>
+        <option value="planets">Поиск планеты</option>
+      </select>
+      <label><input type="text" class="person_search" id="person_search_input"> </label>
+      <button id="search_request_btn" class="button">Найти</button></div>
+    <ul class="search_result">  
+    </ul>
+  </div>
+
+  <div class="person_data">
+    <div>Имя: <span id="persom_name"></div>
+    <div>Рост: <span id="height"></div>
+    <div>Вес: <span id="mass"></div>
+    <div>Год рождения: <span id="birth_year"></div>
+    <div>В скольки фильмах появлялся: <span id="films_count"></div>
+  </div>
+
+  <div class="starship_data">
+    <div>Название: <span id="starship_name"></div>
+    <div>Класс: <span id="starship_class"></div>
+    <div>Производство: <span id="manufacturer"></div>
+    <div>Дата постройки: <span id="created"></div>
+    <div>Грузовая вместимость: <span id="cargo_capacity"></div>
+    <div>В скольки фильмах появлялся: <span id="starship_films_count"></div>
+  </div>
+
+  <div class="planet_data">
+    <div>Имя: <span id="planet_name"></div>
+    <div>Климат: <span id="climate"></div>
+    <div>Диаметр: <span id="diameter"></div>
+    <div>Население: <span id="population"></div>
+    <div>В скольки фильмах появлялся: <span id="planet_films_count"></div>
+  </div>
+</div>
+
+  <script  src="./script.js"></script>
+
+</body>
+</html>
